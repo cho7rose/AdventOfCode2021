@@ -26,4 +26,11 @@ public class UnitTest1
         var actual = Day1.GetStar1(Sample);
         Assert.Equal(expected, actual);
     }
+    [Fact]
+    public void Test2()
+    {
+        var expected = 5;
+        var actual = Day1.GetStar2(Sample);
+        Assert.Equal(expected, actual);
+    }
 }
