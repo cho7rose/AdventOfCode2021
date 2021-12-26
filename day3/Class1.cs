@@ -86,6 +86,4 @@ public class day3
         }
         return new_input[0];
     }
-
-
 }
